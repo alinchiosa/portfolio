@@ -1,0 +1,18 @@
+.aboutContainer{
+    background-image: url("./../../images/background-page.jpg");
+    transform: rotate(90);
+    height: calc(100vh - 8rem);
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutPhoto{
+    margin-left: 10rem;
+}
+
+.aboutText{
+    width: 50%;
+}

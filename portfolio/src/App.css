@@ -1,0 +1,17 @@
+.appContainer{
+  position: relative
+}
+
+.footer{
+  position: absolute
+}
+
+.switch-wrapper {
+  position: relative;
+}
+ 
+.switch-wrapper > div {
+  position: absolute;
+}
+
+

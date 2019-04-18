@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("./../../images/background-navbar.jpg");
+    height: 4rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+    width: 60%;
+    margin-left: 2rem;
+    align-items: center;
+}
+
+.endpoints{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration: none;
+}
+
+
