@@ -8,3 +8,13 @@
     justify-content: space-around;
     align-items: center;
 }
+
+.contactInformation{
+    width: 25%;
+    font-family: 'Inconsolata', monospace;
+    font-size: 14px;
+}
+
+p{
+    font-size: 17px;
+}

@@ -7,7 +7,7 @@ class About extends React.Component {
         return(
             <div className='aboutContainer'>
                 <div className='aboutPhoto'>
-                    <img src={require('./../../images/poza.JPG')} width={220} height={300}/>
+                    <img src={require('./../../images/poza.jpg')} width={220} height={300}/>
                 </div>
                 <div className='aboutText'>
                     <p>
