@@ -32,6 +32,7 @@ class Contact extends React.Component {
                     </GoogleMapReact>
                 </div>
                 <div className="contactInformation">
+                    <img src={require('./../../images/contact_image.png')}  width={220} height={220} />
                     <p>email: alin.chiosa@gmail.com</p>
                     <p>phone: 53 33 68 15</p>
                 </div>

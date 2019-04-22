@@ -2,12 +2,18 @@
     background-image: url("./../../images/background-page.jpg");
     transform: rotate(90);
     height: calc(100vh - 8rem);
-    width: auto;
+    width: 100vw;;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     font-family: 'Inconsolata', monospace;
+}
+
+.aboutWorkContainer, .aboutHobbyContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .aboutPhoto{
