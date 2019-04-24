@@ -12,11 +12,16 @@ class Footer extends React.Component {
         return(
             <div className="footerContainer">
                 <div className="links">
-                    <a>
+                    <a href="https://www.linkedin.com/in/alinchiosa/" target="_blank">
                         <FontAwesomeIcon icon={faLinkedin} size='2x'/>
                     </a>
-                    <FontAwesomeIcon icon={faGithub} size='2x'/>
-                    <FontAwesomeIcon icon={faGitlab} size='2x'/>
+                    <a href="https://github.com/alinchiosa" target="_blank">
+                        <FontAwesomeIcon icon={faGithub} size='2x'/>
+                    </a>
+                    <a href="https://gitlab.com/alinchiosa" target="_blank">
+                        <FontAwesomeIcon icon={faGitlab} size='2x'/>
+
+                    </a>
                 </div>
             </div>
         )

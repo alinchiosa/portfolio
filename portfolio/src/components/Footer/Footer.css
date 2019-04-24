@@ -14,3 +14,9 @@
     align-items: center;
     width:30%;
 }
+
+a { color:black }
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
